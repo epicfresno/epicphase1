@@ -1,2 +1,2 @@
-# epicphase1
-Team epicfresno code for the 59daysofCode competition.
+# epic phase1
+Team epicfresno sourcecode for the 59daysofCode competition.
