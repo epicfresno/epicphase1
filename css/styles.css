@@ -1,0 +1,44 @@
+/*  NAV Bar*/
+h1,a{
+  color: #ffffff;
+  font-family: 'quicksand', sans-serif;
+  font-weight: 400;
+
+}
+
+.navbar {
+  background-color: rgb(77, 77, 77);
+  height: 75px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+    background-color: rgb(77,77,77);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #e71bff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+            background-color:rgb(77, 77, 77);
+}
+
+.dropdown-menu{
+  background-color: rgb(77, 77, 77);
+}
+
+/* small screen */
+@media (min-width:768px){
+
+}
+
+/* md screen */
+@media (min-width:992px) {
+
+}
+
+/*  large screen */
+@media (min-wdth:1200px){
+
+}
