@@ -13,5 +13,27 @@
 /* carousel End */
 
 /* footer begin */
-
+footer{
+  background-color: #595959;
+  height: 6em;
+}
+.copyright-info{
+  text-align: center;
+  color: #262523;
+}
+.sm-icon{
+  padding-bottom: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tweet-icon{
+  color: #1DA1F2;
+}
+.insta-icon{
+  color: #262626;
+}
+.fb-icon{
+  color: #4867AA;
+}
 /* footer end */
