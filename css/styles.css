@@ -1,4 +1,3 @@
-
 /*  NAV Bar*/
 h1,a{
   color: #ffffff;
@@ -42,6 +41,17 @@ h1,a{
 @media (min-wdth:1200px){
 
 }
+/* end navbar */
+
+/* begin carousel */
+.carousel {
+  height: 19em;
+  background-color: #8697a6;
+}
+.carousel-caption{
+  text-align: center;
+}
+/* end carousel */
 
 /* footer begin */
 footer{
