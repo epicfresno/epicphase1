@@ -56,22 +56,23 @@ h1,a{
 /* footer begin */
 footer{
   background-color: #595959;
-  height: 6em;
+  height: 4em;
 }
 .copyright-info{
   text-align: center;
   color: #262523;
 }
 .sm-icon{
-  padding-bottom: 3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .tweet-icon{
   color: #1DA1F2;
+  padding-right: 1em;
 }
 .insta-icon{
+  padding-right: 1em;
   color: #fbc11c;
   width: inherit;
   animation-name: color-change;
