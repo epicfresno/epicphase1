@@ -1,80 +1,181 @@
+/*Begin global styles*/
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Roboto Slab', serif;
+ margin-top: 10px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+h2 {
+ font-size:2.2em;
+ line-height:1.3em;
+}
+p {
+ font-family: 'Roboto', sans-serif;
+ font-weight:300;
+ font-size:1em;
+}
+.fab, .far, .fas {
+ font-size:30px;
+ margin-left:5px;
+ margin-right:5px;
+}
+.color-text-white {
+ color:#ffffff;
+}
+      /* end global styles*/
 /*  NAV Bar*/
 h1,a{
   color: #ffffff;
   font-family: 'quicksand', sans-serif;
   font-weight: 400;
 }
-
 .navbar {
   background-color: rgb(77, 77, 77);
   height: 75px;
 }
-
 .nav.navbar-nav.navbar-right li a {
     color: #ffffff;
     background-color: rgb(77,77,77);
 }
-
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #e71bff;
 }
-
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
             background-color:rgb(77, 77, 77);
 }
-
 .dropdown-menu{
   background-color: rgb(77, 77, 77);
 }
 
-/* small screen */
-@media (min-width:768px){
-
-}
-
-/* md screen */
-@media (min-width:992px) {
-
-}
-
-/*  large screen */
-@media (min-wdth:1200px){
-
-}
-/* end navbar */
-
 /* begin carousel */
 .carousel {
-  height: 19em;
-  background-color: #8697a6;
+ height: 400px;
+ background-color: #8697a6;
 }
-.carousel-caption{
-  text-align: center;
+.carousel-inner {
+ background-color:#000000;
+ height:400px;
+ /* margin-top:20px; */
+ /* margin-bottom:0px; */
+ /* text-align: center; */
+ padding-top:20px;
+ padding-bottom:20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
-/* end carousel */
+.carousel-caption {
+ padding:20px;
+ /* height:15em; */
+ text-align: center;
+ font-weight:700;
+ margin-top:200px;
+ /* margin-bottom:0px */
+}
+    /* end carousel */
+/*  end of test test test*/
+    /* jumbotron */
+.first-jumbotron {
+ background-color:#595959;
+ margin-top:0px;
+ margin-bottom:0px;
+ text-align: center;
+ padding-top:20px;
+ padding-bottom:60px;
+ display: flex;
+ align-items: center;
+}
+/* end jumbotron */
+/* TheApp styles */
+.theapp {
+ background-color:#595959;
+ margin-top:0px;
+ margin-bottom:0px;
+ text-align: center;
+ padding-top:20px;
+ padding-bottom:60px;
+ display: flex;
+ flex-direction: ;
+ align-items: center;
+}
 
+.app-section {
+ background:#030116;
+ padding-bottom:80px;
+ padding-top:100px;
+ color:#ffffff;
+ display:flex;
+}
+
+
+.app-item {
+ text-align: center;
+ height: auto;
+}
+   /* end theApp styles */
+  /* begin wuffo */
+iframe{
+  color: black:
+}
 /* footer begin */
 footer{
   background-color: #595959;
-  height: 6em;
+  height: 5em;
 }
 .copyright-info{
   text-align: center;
   color: #262523;
 }
 .sm-icon{
-  padding-bottom: 3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .tweet-icon{
   color: #1DA1F2;
+  padding-right: 1em;
 }
 .insta-icon{
-  color: #262626;
+  padding-right: 1em;
+  color: #fbc11c;
+  width: inherit;
+  animation-name: color-change;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-duration: infinite;
+}
+@keyframes color-change {
+    0%   {color:#fbc11c; left:0px; top:0px;}
+    25%  {color:#c1326c; left:200px; top:0px;}
+    50%  {color:#ac3c8e; left:200px; top:200px;}
+    75%  {color:#e3225d; left:0px; top:200px;}
+    100% {color:#fbc11c; left:0px; top:0px;}
 }
 .fb-icon{
   color: #4867AA;
 }
 /* footer end */
+/* small screen */
+@media only screen and (min-width:768px){
+ .home-jumbotron {
+     min-height: calc(100vh-50px);
+   }
+}
+
+/* md screen */
+@media only screen and (min-width:992px) {
+ .home-jumbotron {
+     text-align: left;
+   }
+
+ .home-jumbo-tron-left {
+     padding-top:20px;
+}
+
+/*  large screen */
+@media only screen and (min-wdth:1200px){
+ .home-jumbotron-left {
+     padding-top:100px;
+   }
+}
