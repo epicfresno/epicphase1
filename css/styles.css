@@ -65,6 +65,9 @@ h1,a{
  justify-content: center;
  align-items: center;
 }
+.carouselheader{
+  margin-top: 6em;
+}
 .carousel-caption {
  padding:20px;
  /* height:15em; */
@@ -99,7 +102,16 @@ h1,a{
  flex-direction: ;
  align-items: center;
 }
-
+.appheader{
+  display: flex;
+  justify-content: center;
+  margin-left: 6em;
+}
+.apptext{
+  display: flex;
+  justify-content: center;
+  margin-left: 9em;
+}
 .app-section {
  background:#030116;
  padding-bottom:80px;
